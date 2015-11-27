@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+dependencies {
+    compile project(':annotations')
+    compile 'com.google.auto.service:auto-service:1.0-rc2' //添加注解处理器的 AUTOSERVICE 加入metadata 才能使javac 带有注解处理器
+    compile 'com.google.auto:auto-common:0.4' //auto 配合 auto-service一起使用
+    compile 'com.squareup:javapoet:1.4.0'
+}
