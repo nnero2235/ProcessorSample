@@ -19,6 +19,6 @@ public class ViewBindClass {
   }
 
   public void addFieldInfo(){
-
+      return;
   }
 }
